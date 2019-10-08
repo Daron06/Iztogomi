@@ -1,0 +1,22 @@
+@import "reset";
+@import "veriebles";
+@import "vars";
+@import "fonts";
+@import "helpers";
+@import "header";
+@import "button";
+@import "works";
+@import "download";
+@import "join";
+@import "footer";
+@import "burger";
+
+
+body {
+    background-color: #fff;
+    font-family: $default-font;
+    color: $text-color;
+    
+}
+
+@import "media";

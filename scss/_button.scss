@@ -1,0 +1,73 @@
+.btn {
+    text-decoration: none;
+    color: $text-color;
+    font-size: 25px;
+    align-items: center;
+    display: inline-flex;
+    transition: color .4s linear, border-color .2s linear;
+   
+    i {
+        padding-right: 15px;
+        color: #000000;
+    }
+}
+.btn__app {
+    padding: 25px 30px;
+    border: 2px solid #3E3E3E;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.0746433);
+    border-radius: 100px;
+    margin-right: 60px;
+
+    &:hover {
+        color: #fff;
+        border-color: #fff;
+    }
+    i {
+        font-size: 40px;
+    }
+}
+.btn__play {
+    padding: 22px 19px;
+    border: 2px solid #3E3E3E;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    &:hover {
+        color: #fff;
+        border-color: #fff;
+    }
+    i {
+        font-size: 38px;
+    }
+}
+
+.btn__app-revers {
+    padding: 25px 30px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.0746433);
+    border-radius: 100px;
+    margin-right: 60px;
+
+    &:hover {
+        border-color: #3E3E3E;
+    }
+    i {
+        font-size: 40px;
+    }
+}
+.btn__play-revers {
+    padding: 22px 19px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+
+    &:hover {
+        border-color: #3E3E3E;
+    }
+    i {
+        font-size: 38px;
+    }
+}

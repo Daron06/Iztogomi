@@ -1,0 +1,17 @@
+.burger {
+    display: none;
+    background: url(../image/svg/menu-button.svg) no-repeat center ;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.burger__active {
+    display: none;
+    background: url(../image/svg/close.svg) no-repeat center ;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}

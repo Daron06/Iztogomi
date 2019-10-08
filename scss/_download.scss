@@ -1,0 +1,38 @@
+.download {
+    min-height: 654px;
+    background: url(../image/bg-body.jpg) center no-repeat / cover;
+    width: 100%;
+    display: flex;
+    position: relative;
+    
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+}
+
+.download__inner {
+    padding-left: 90px;
+}
+.download__title {
+    padding-top: 147px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    color: $text-color-next;
+}
+.download__suptitle {
+    font-size: 30px;
+    color: #7a7a7a;
+    padding-bottom: 44px;
+}
+
+.download__text {
+    font-size: 22px;
+    line-height: 28px;
+    color: $text-color-next;
+    width: 620px;
+}
+
